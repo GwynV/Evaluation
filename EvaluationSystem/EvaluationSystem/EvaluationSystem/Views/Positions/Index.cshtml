@@ -1,0 +1,44 @@
+﻿@model IEnumerable<EvaluationSystem.Models.Position>
+
+@{
+    ViewData["Title"] = "Position";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<h1 class="text-white">@ViewData["Title"]</h1>
+<body>
+    
+    <a asp-action="Create" class="btn btn-info">Create New</a>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-light">Home</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PositionCategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PositionCategory)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PositionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PositionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PositionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

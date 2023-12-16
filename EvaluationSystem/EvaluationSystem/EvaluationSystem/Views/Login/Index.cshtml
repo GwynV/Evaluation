@@ -1,0 +1,30 @@
+﻿@model EvaluationSystem.Models.User;
+@{
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+<div class="center">
+    <h1 style="color:#1493db;" class="float-none">
+        <img class="mb-4 align-top float-none" src="~/image/dnts.png" alt="DNTS Logo" width="85" height="60" /> | LOGIN
+    </h1>
+    <form asp-action="Login">
+        @if (ViewData["LoginErrorMessage"] != null)
+        {
+            <p class="text-danger text-center" style="font-size: 10px;">@ViewData["LoginErrorMessage"]</p>
+        }
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="UserName" required>
+            <span></span>
+            <label>Username</label>
+        </div>
+        <div class="txt_field">
+            <input asp-for="Password" type="password" required>
+            <span></span>
+            <label>Password</label>
+        </div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+           
+        </div>
+    </form>
+</div>

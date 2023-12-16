@@ -1,0 +1,54 @@
+﻿@model EvaluationSystem.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+    // Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+<div class="center">
+    <h1 style="color:#1493db;" class="float-none">REGISTER</h1>
+    <form asp-action="Create">
+        @if (ViewData["LoginErrorMessage"] != null)
+        {
+            <p class="text-danger text-center" style="font-size: 10px;">@ViewData["LoginErrorMessage"]</p>
+        }
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="FirstName" required>
+            <span asp-validation-for="FirstName"></span>
+            <label>FirstName</label>
+        </div>
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="LastName" required>
+            <span asp-validation-for="LastName"></span>
+            <label>LastName</label>
+        </div>
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="MiddleName" required>
+            <span asp-validation-for="MiddleName"></span>
+            <label>MiddleName</label>
+        </div>
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="UserName" required>
+            <span asp-validation-for="UserName"></span>
+            <label>Username</label>
+        </div>
+        <div class="txt_field">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Password" required>
+            <span asp-validation-for="Password"></span>
+            <label>Password</label>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </div>
+        <div class="signup_link">
+           
+        </div>
+    </form>
+</div>
+

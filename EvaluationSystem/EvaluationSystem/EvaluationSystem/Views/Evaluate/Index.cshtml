@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model EvaluationSystem.ViewModels.EvalVM
+
+@foreach(var vm in Model.EvaluationList)
+{
+
+    <h1> @vm.Term.TermName</h1>
+    <h1> @vm.GradingPeriod.GradingPeriodName</h1>
+}

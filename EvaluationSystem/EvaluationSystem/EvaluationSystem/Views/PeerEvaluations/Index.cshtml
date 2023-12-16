@@ -1,0 +1,67 @@
+﻿@using EvaluationSystem.ViewModels
+@model PeerVM
+
+@{
+   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Users)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categories)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Rating)
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comment)
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Users) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+        </tr>
+}
+    </tbody>
+        <tbody>
+        @foreach (var item in Model.Categories)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EvaluationCategoryName)
+                </td>
+            </tr>
+        }
+        </tbody>
+        <tbody>
+            @foreach (var item in Model.Rating)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EvaluationRatingName)
+                    </td>
+                </tr>
+            }
+            </tbody>
+    </table>
+</body>
+</html>

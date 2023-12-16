@@ -1,0 +1,277 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EvaluationSystem
+build_property.RootNamespace = EvaluationSystem
+build_property.ProjectDir = C:\Users\Gwyneitze\Desktop\EvaluationSystem\EvaluationSystem\EvaluationSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Gwyneitze\Desktop\EvaluationSystem\EvaluationSystem\EvaluationSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/CommentEvals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudEV2YWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/CommentEvals/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudEV2YWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/CommentEvals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudEV2YWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/CommentEvals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudEV2YWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/CommentEvals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudEV2YWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkNhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkNhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkNhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkNhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkNhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkRldGFpbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkRldGFpbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkRldGFpbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkRldGFpbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbkRldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationRatings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvblJhdGluZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationRatings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvblJhdGluZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationRatings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvblJhdGluZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationRatings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvblJhdGluZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/EvaluationRatings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvblJhdGluZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Evaluations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbHVhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/GradingPeriods/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGluZ1BlcmlvZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/GradingPeriods/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGluZ1BlcmlvZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/GradingPeriods/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGluZ1BlcmlvZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/GradingPeriods/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGluZ1BlcmlvZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/GradingPeriods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGluZ1BlcmlvZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/HeadEvaluations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZEV2YWx1YXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/HeadEvaluations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZEV2YWx1YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/HeadEvaluations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZEV2YWx1YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/HeadEvaluations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZEV2YWx1YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/HeadEvaluations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZEV2YWx1YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/PeerEvaluations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVlckV2YWx1YXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/PeerEvaluations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVlckV2YWx1YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/PeerEvaluations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVlckV2YWx1YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/PeerEvaluations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVlckV2YWx1YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/PeerEvaluations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVlckV2YWx1YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Positions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Positions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Positions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Positions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Positions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Terms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Terms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Terms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Terms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Terms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5kz3ec0ocd
+
+[C:/Users/Gwyneitze/Desktop/EvaluationSystem/EvaluationSystem/EvaluationSystem/Views/Shared/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-od5or079s9
