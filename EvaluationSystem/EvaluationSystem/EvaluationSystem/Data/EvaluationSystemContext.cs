@@ -16,7 +16,7 @@ namespace EvaluationSystem.Data
 
         public DbSet<EvaluationSystem.Models.User> User { get; set; } = default!;
 
-        public DbSet<EvaluationSystem.Models.Position> Position { get; set; } = default!;
+        public DbSet<EvaluationSystem.Models.Position> Position { get; set; }
 
         public DbSet<EvaluationSystem.Models.Term>? Term { get; set; }
 
@@ -38,10 +38,19 @@ namespace EvaluationSystem.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<EvaluationDetails>().HasMany("EvaluatedUser").WithOne().HasForeignKey("EvaluatedUserId");
-            modelBuilder.Entity<EvaluationDetails>().HasMany("EvaluatedUser").WithOne().HasForeignKey("EvaluatedUserId");
+            modelBuilder.Entity<EvaluationDetails>(entity =>
+            {
+                entity.HasOne(q => q.EvaluatedUser)
+                .WithMany()
+                .HasForeignKey(q => q.EvaluatedUserId);
+            });
 
-            //modelBuilder.Entity<CommentEval>().HasOne(q => q.CommentedBy).WithMany().HasForeignKey(q => q.CommentedById).OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<CommentEval>(entity =>
+            {
+                entity.HasOne(q => q.CommentedBy)
+                .WithMany()
+                .HasForeignKey(q => q.CommentedById);
+            });
         }
     }
 }

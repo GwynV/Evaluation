@@ -4,16 +4,13 @@
 
 namespace EvaluationSystem.Migrations
 {
-    public partial class fdb1 : Migration
+    public partial class finaldb2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
                 name: "FK_EvaluationDetails_CommentEval_CommentEvalId",
                 table: "EvaluationDetails");
-
-            migrationBuilder.DropTable(
-                name: "Staff");
 
             migrationBuilder.DropIndex(
                 name: "IX_EvaluationDetails_CommentEvalId",
@@ -39,6 +36,12 @@ namespace EvaluationSystem.Migrations
                 type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: "");
+
+            migrationBuilder.AddColumn<int>(
+                name: "EvaluationDetailsId",
+                table: "User",
+                type: "int",
+                nullable: true);
 
             migrationBuilder.AddColumn<int>(
                 name: "PositionId",
@@ -67,6 +70,11 @@ namespace EvaluationSystem.Migrations
                 type: "int",
                 nullable: false,
                 defaultValue: 0);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_User_EvaluationDetailsId",
+                table: "User",
+                column: "EvaluationDetailsId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_User_PositionId",
@@ -103,48 +111,49 @@ namespace EvaluationSystem.Migrations
                 table: "CommentEval",
                 column: "CommentedById",
                 principalTable: "User",
-                principalColumn: "UserId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "UserId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_CommentEval_User_UserId",
                 table: "CommentEval",
                 column: "UserId",
                 principalTable: "User",
-                principalColumn: "UserId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "UserId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_EvaluationDetails_Evaluation_EvaluationId",
                 table: "EvaluationDetails",
                 column: "EvaluationId",
                 principalTable: "Evaluation",
-                principalColumn: "EvaluationId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "EvaluationId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_EvaluationDetails_User_EvaluatedUserId",
                 table: "EvaluationDetails",
                 column: "EvaluatedUserId",
                 principalTable: "User",
-                principalColumn: "UserId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "UserId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_EvaluationDetails_User_UserId",
                 table: "EvaluationDetails",
                 column: "UserId",
                 principalTable: "User",
-                principalColumn: "UserId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "UserId");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_User_EvaluationDetails_EvaluationDetailsId",
+                table: "User",
+                column: "EvaluationDetailsId",
+                principalTable: "EvaluationDetails",
+                principalColumn: "EvaluationDetailsId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_User_Position_PositionId",
                 table: "User",
                 column: "PositionId",
                 principalTable: "Position",
-                principalColumn: "PositionId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "PositionId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -170,7 +179,15 @@ namespace EvaluationSystem.Migrations
                 table: "EvaluationDetails");
 
             migrationBuilder.DropForeignKey(
+                name: "FK_User_EvaluationDetails_EvaluationDetailsId",
+                table: "User");
+
+            migrationBuilder.DropForeignKey(
                 name: "FK_User_Position_PositionId",
+                table: "User");
+
+            migrationBuilder.DropIndex(
+                name: "IX_User_EvaluationDetailsId",
                 table: "User");
 
             migrationBuilder.DropIndex(
@@ -199,6 +216,10 @@ namespace EvaluationSystem.Migrations
 
             migrationBuilder.DropColumn(
                 name: "Email",
+                table: "User");
+
+            migrationBuilder.DropColumn(
+                name: "EvaluationDetailsId",
                 table: "User");
 
             migrationBuilder.DropColumn(

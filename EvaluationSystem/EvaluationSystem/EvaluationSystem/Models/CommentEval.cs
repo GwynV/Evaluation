@@ -7,15 +7,18 @@ namespace EvaluationSystem.Models
     {
         [Key]
         public int CommentId { get; set; }
+
         public string EvaluationComment { get; set; } = string.Empty;
-        public int CommentedById { get; set; }
-        [ForeignKey("CommentedById")]
-        public User? CommentedBy { get; set; }
 
-
+        [Required]
         public int UserId { get; set; }
         [ForeignKey("UserId")]
         public User? User { get; set; }
+
+        [Required]
+        public int CommentedById { get; set; }
+        [ForeignKey("CommentedById")]
+        public User? CommentedBy { get; set; }
 
         //Foreign Key from Evaluation Table
         [Required]

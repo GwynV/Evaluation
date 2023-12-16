@@ -4,6 +4,7 @@ using EvaluationSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EvaluationSystem.Migrations
 {
     [DbContext(typeof(EvaluationSystemContext))]
-    partial class EvaluationSystemContextModelSnapshot : ModelSnapshot
+    [Migration("20231216234607_finaldb3")]
+    partial class finaldb3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
